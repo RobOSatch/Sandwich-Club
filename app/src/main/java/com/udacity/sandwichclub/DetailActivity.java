@@ -93,5 +93,9 @@ public class DetailActivity extends AppCompatActivity {
         if (alsoKnownTextView.getText().equals("")) {
             alsoKnownTextView.setText("None");
         }
+
+        if (originTextView.getText().equals("")) {
+            originTextView.setText("None");
+        }
     }
 }
